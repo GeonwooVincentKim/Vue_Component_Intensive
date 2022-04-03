@@ -1,5 +1,5 @@
 <template>
-    <h2>Page Title</h2>
+    <h2>{{ title }}</h2>
 </template>
 <script>
 export default {
