@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import NestedComponent from "../views/NestedComponent.vue";
+import NestedComponent from '../views/NestedComponent.vue'
 
 const routes = [
   {
