@@ -57,7 +57,8 @@ export default {
 }
 ```
 
-- Fix `ESLint` Issue
+- Fix `ESLint` Issue -> [ESLint VueJS Stackoverflow Issue](https://stackoverflow.com/questions/51265476/fix-doesnt-fix-the-errors-using-eslint)
+
 - This is the ESLine issue which occurs errors and warnings issue
 ```
 .\node_modules\.bin\eslint src\** --fix
