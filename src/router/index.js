@@ -18,7 +18,7 @@ const routes = [
   },
   {
     path: '/nested',
-    name: 'Nested-Component',
+    name: 'NestedComponent',
     component: NestedComponent
   }
 ]
