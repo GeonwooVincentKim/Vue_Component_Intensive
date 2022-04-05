@@ -26,6 +26,11 @@ const routes = [
     path: '/compo01',
     name: 'Components 01',
     component: ParentComponent
+  },
+  {
+    path: '/compo02',
+    name: 'Components 02',
+    component: ParentComponent
   }
 ]
 
