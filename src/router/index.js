@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import NestedComponent from '../views/NestedComponent.vue'
 import ParentComponent from '../views/ParentComponent.vue'
+// import ParentComponent2 from '../views/ParentComponent2.vue'
+import ParentComponent3 from '../views/ParentComponent3.vue'
 
 const routes = [
   {
@@ -27,10 +29,15 @@ const routes = [
     name: 'Components 01',
     component: ParentComponent
   },
+  // {
+  //   path: '/compo02',
+  //   name: 'Components 02',
+  //   component: ParentComponent2
+  // },
   {
-    path: '/compo02',
-    name: 'Components 02',
-    component: ParentComponent
+    path: '/compo03',
+    name: 'Components 03',
+    component: ParentComponent3
   }
 ]
 
