@@ -3,6 +3,7 @@
     <button type="button" @click="changeChildData">Change Child Data</button>
 </template>
 <script>
+
 import ChildComponent from './ChildComponent3';
 
 export default {
