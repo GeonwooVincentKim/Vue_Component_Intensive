@@ -1,9 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import NestedComponent from '../views/NestedComponent.vue'
-import ParentComponent from '../views/ParentComponent.vue'
+// import ParentComponent from '../views/ParentComponent.vue'
 // import ParentComponent2 from '../views/ParentComponent2.vue'
-import ParentComponent3 from '../views/ParentComponent3.vue'
+// import ParentComponent3 from '../views/ParentComponent3.vue'
+import ParentComponent4 from '../views/ParentComponent4.vue'
 
 const routes = [
   {
@@ -24,20 +25,25 @@ const routes = [
     name: 'NestedComponent',
     component: NestedComponent
   },
-  {
-    path: '/compo01',
-    name: 'Components 01',
-    component: ParentComponent
-  },
+  // {
+  //   path: '/compo01',
+  //   name: 'Components 01',
+  //   component: ParentComponent
+  // },
   // {
   //   path: '/compo02',
   //   name: 'Components 02',
   //   component: ParentComponent2
   // },
+  // {
+  //   path: '/compo03',
+  //   name: 'Components 03',
+  //   component: ParentComponent3
+  // }
   {
-    path: '/compo03',
-    name: 'Components 03',
-    component: ParentComponent3
+    path: '/compo04',
+    name: 'Components 04',
+    component: ParentComponent4
   }
 ]
 
