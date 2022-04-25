@@ -6,6 +6,7 @@ import NestedComponent from '../views/NestedComponent.vue'
 import ParentComponent3 from '../views/ParentComponent3.vue'
 import ParentComponent4 from '../views/ParentComponent4.vue'
 import ParentComponent5 from '../views/ParentComponent5.vue'
+import SlotModalLayout from '../views/SlotModalLayout.vue'
 
 const routes = [
   {
@@ -50,6 +51,11 @@ const routes = [
     path: '/compo05',
     name: 'Components 05',
     component: ParentComponent5
+  },
+  {
+    path: '/slot',
+    name: 'SlotModalLayout',
+    component: SlotModalLayout
   }
 ]
 
