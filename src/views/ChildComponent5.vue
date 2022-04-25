@@ -3,15 +3,16 @@
 </template>
 <script>
 export default {
-    data () {
-        return {
-            msg: '메시지'
-        };
-    },
-    methods: {
-        childFunc() {
-            this.msg = "변경 된 메시지";
-        }
+  data () {
+    return {
+      msg: '메시지'
     }
+  },
+  methods: {
+    childFunc () {
+      console.log(this.msg)
+      this.msg = '변경 된 메시지'
+    }
+  }
 }
 </script>
