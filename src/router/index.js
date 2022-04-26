@@ -28,6 +28,16 @@ const routes = [
     component: NestedComponent
   },
   {
+    path: '/compo01',
+    name: 'Components 01',
+    component: ParentComponent
+  },
+  {
+    path: '/compo02',
+    name: 'Components 02',
+    component: ParentComponent2
+  },
+  {
     path: '/compo03',
     name: 'Components 03',
     component: ParentComponent3
