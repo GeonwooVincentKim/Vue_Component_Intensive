@@ -8,7 +8,6 @@ import ParentComponent4 from '../views/ParentComponent4.vue'
 import ParentComponent5 from '../views/ParentComponent5.vue'
 import SlotModalLayout from '../views/SlotModalLayout.vue'
 
-
 const routes = [
   {
     path: '/',
