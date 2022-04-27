@@ -13,6 +13,7 @@ export default {
       reversedMessage: ''
     }
   },
+  // Watch changed
   watch: {
     message: function (newVal, oldVal) {
       this.reversedMessage = newVal.split('').reverse().join('')
