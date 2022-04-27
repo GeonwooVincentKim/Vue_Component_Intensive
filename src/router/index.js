@@ -9,6 +9,7 @@ import ParentComponent5 from '../views/ParentComponent5.vue'
 import SlotModalLayout from '../views/SlotModalLayout.vue'
 
 import ComputedExample from '../views/ComputedExample.vue'
+import WatchExample from '../views/WatchExample.vue'
 
 const routes = [
   {
@@ -63,6 +64,11 @@ const routes = [
     path: '/computed',
     name: 'ComputedExample',
     component: ComputedExample
+  },
+  {
+    path: '/watch',
+    name: 'WatchExample',
+    component: WatchExample
   }
 ]
 

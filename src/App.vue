@@ -4,7 +4,8 @@
     <router-link to="/about">About</router-link> |
     <router-link to="/nested">Nested</router-link> |
     <router-link to="/slot">Slot</router-link> |
-    <router-link to="/computed">Computed</router-link>
+    <router-link to="/computed">Computed</router-link> |
+    <router-link to="/watch">Watch</router-link>
   </nav>
   <router-view/>
 </template>
