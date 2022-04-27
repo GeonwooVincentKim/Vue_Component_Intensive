@@ -3,7 +3,8 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/nested">Nested</router-link> |
-    <router-link to="/slot">Slot</router-link>
+    <router-link to="/slot">Slot</router-link> |
+    <router-link to="/computed">Computed</router-link>
   </nav>
   <router-view/>
 </template>

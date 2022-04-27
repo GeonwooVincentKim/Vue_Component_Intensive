@@ -7,7 +7,7 @@ import ChildComponent from './ChildComponent2.vue'
 export default {
   components: { ChildComponent },
   mounted () {
-    this.$refs.child_component.callFromparent();
+    this.$refs.child_component.callFromparent()
   }
 }
 </script>
