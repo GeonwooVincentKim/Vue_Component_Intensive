@@ -11,7 +11,7 @@ import SlotModalLayout from '../views/SlotModalLayout.vue'
 import ComputedExample from '../views/ComputedExample.vue'
 import WatchExample from '../views/WatchExample.vue'
 
-import PageTitle from "../views/PageTitle.vue";
+import PageSlotTitle from '../views/PageSlotTitle.vue'
 
 const routes = [
   {
@@ -73,9 +73,9 @@ const routes = [
     component: WatchExample
   },
   {
-	path: '/PageTitle',
-	name: 'PageSlot',
-	component: PageTitle
+    path: '/slot',
+    name: 'PageSlotTitle',
+    component: PageSlotTitle
   }
 ]
 

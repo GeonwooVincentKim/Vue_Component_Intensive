@@ -1,11 +1,7 @@
 <template>
-	<h2><slot></slot></h2>
-	<PageTitle>Example of Component usage</PageTitle>
+  <h2><slot></slot></h2>
+  <PageTitleSecond>Example of Component usage</PageTitleSecond>
 </template>
 <script>
-export default {
-  data () {
-  	
-  },
-}
+export default {}
 </script>
