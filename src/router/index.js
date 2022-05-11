@@ -85,24 +85,24 @@ const routes = [
       {
         path: '/provide/inject',
         name: 'ProvideInject',
-        component: '/provide/provideInject'
+        components: '/provide/provideInject'
       },
       {
         path: '/provide/injectChild',
         name: 'ProvideInjectChild',
-        component: '/provide/provideInjectChild'
+        components: '/provide/provideInjectChild'
       }
     ]
   },
   {
     path: '/calculator',
     name: 'Calculator',
-    component: '/calculator',
+    components: '/calculator',
     children: [
       {
         path: '/calculator/Calculator',
         name: 'Calculator',
-        component: '/calculator/Calculator'
+        components: '/calculator/Calculator'
       }
     ]
   }
