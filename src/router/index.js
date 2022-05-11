@@ -76,7 +76,25 @@ const routes = [
     path: '/slot',
     name: 'PageSlotTitle',
     component: PageSlotTitle
+  },
+  {
+    path: '/provide',
+    name: 'Provide',
+    component: '/provide',
+    children: [
+      {
+        path: '/provide/inject',
+        name: 'ProvideInject',
+        component: '/provide/provideInject'
+      },
+      {
+        path: '/provide/injectChild',
+        name: 'ProvideInjectChild',
+        component: '/provide/provideInjectChild'
+      }
+    ]
   }
+
 ]
 
 const router = createRouter({

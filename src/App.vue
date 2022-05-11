@@ -5,7 +5,8 @@
     <router-link to="/nested">Nested</router-link> |
     <router-link to="/slot">Slot</router-link> |
     <router-link to="/computed">Computed</router-link> |
-    <router-link to="/watch">Watch</router-link>
+    <router-link to="/watch">Watch</router-link> |
+    <router-link to="/provide/provideInject">Provide</router-link>
   </nav>
   <router-view/>
 </template>
