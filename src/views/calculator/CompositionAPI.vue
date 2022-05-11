@@ -1,11 +1,17 @@
 <template>
-    <div></div>
+    <div>
+        <input type="text" v-model="state.num1" @keyup="plusNumbers">
+        <span> + </span>
+        <input type="text" v-model="state.num2" @keyup="plusNumbers">
+        <span> = </span>
+        <span>{{ state.result }}</span>
+    </div>
 </template>
 <script>
 import { reactive } from 'vue'
 
 export default {
-  name: 'Calculator',
+  name: 'CalculatorExample',
   setup () {
     // Use reactive and apply `num1`, `num2`, `result` to 
     // Real-Time Change-point

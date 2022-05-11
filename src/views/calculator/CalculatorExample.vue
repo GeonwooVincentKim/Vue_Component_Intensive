@@ -12,16 +12,16 @@
 </template>
 <script>
 export default {
-  name: 'Calculator',
+  name: 'CalculatorExample',
   data () {
     return {
       num1: 0,
       num2: 0,
       result: 0
-    };
+    }
   },
   methods: {
-    plusNumbers() {
+    plusNumbers () {
       this.result = parseInt(this.num1) + parseInt(this.num2)
     }
   }

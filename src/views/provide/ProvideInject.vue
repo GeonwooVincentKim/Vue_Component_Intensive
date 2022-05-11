@@ -1,24 +1,24 @@
 <template>
-	<div>
-		<ProvideInjectChild />
-	</div>
+  <div>
+    <ProvideInjectChild />
+  </div>
 </template>
 <script>
 import ProvideInjectChild from './ProvideInjectChild'
 
 export default {
   name: 'ProvideInject',
-  components: {ProvideInjectChild},
+  components: { ProvideInjectChild },
   data () {
-	return {
-	  items: ['A', 'B']
-	};
+    return {
+      items: ['A', 'B']
+    }
   },
 
   provide () {
-	return {
-	  itemLength: this.items.length
-	};
+    return {
+      itemLength: this.items.length
+    }
   }
 }
 

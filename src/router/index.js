@@ -13,6 +13,10 @@ import WatchExample from '../views/WatchExample.vue'
 
 import PageSlotTitle from '../views/PageSlotTitle.vue'
 
+import ProvideInject from '../views/provide/ProvideInject.vue'
+import ProvideInjectChild from '../views/provide/ProvideInjectChild.vue'
+import CalculatorExample from '../views/calculator/CalculatorExample.vue'
+
 const routes = [
   {
     path: '/',
@@ -78,33 +82,19 @@ const routes = [
     component: PageSlotTitle
   },
   {
-    path: '/provide',
-    name: 'Provide',
-    component: '/provide',
-    children: [
-      {
-        path: '/provide/inject',
-        name: 'ProvideInject',
-        components: '/provide/provideInject'
-      },
-      {
-        path: '/provide/injectChild',
-        name: 'ProvideInjectChild',
-        components: '/provide/provideInjectChild'
-      }
-    ]
+    path: '/provide/inject',
+    name: 'ProvideInject',
+    component: ProvideInject
   },
   {
-    path: '/calculator',
+    path: '/provide/injectChild',
+    name: 'ProvideInjectChild',
+    component: ProvideInjectChild
+  },
+  {
+    path: '/calculator/CalculatorExample',
     name: 'Calculator',
-    components: '/calculator',
-    children: [
-      {
-        path: '/calculator/Calculator',
-        name: 'Calculator',
-        components: '/calculator/Calculator'
-      }
-    ]
+    component: CalculatorExample
   }
 
 ]
