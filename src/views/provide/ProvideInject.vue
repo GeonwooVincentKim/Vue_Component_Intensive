@@ -1,5 +1,7 @@
 <template>
-	<ProvideInjectChild />
+	<div>
+		<ProvideInjectChild />
+	</div>
 </template>
 <script>
 import ProvideInjectChild from './ProvideInjectChild'
