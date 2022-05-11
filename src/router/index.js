@@ -93,6 +93,18 @@ const routes = [
         component: '/provide/provideInjectChild'
       }
     ]
+  },
+  {
+    path: '/calculator',
+    name: 'Calculator',
+    component: '/calculator',
+    children: [
+      {
+        path: '/calculator/Calculator',
+        name: 'Calculator',
+        component: '/calculator/Calculator'
+      }
+    ]
   }
 
 ]
