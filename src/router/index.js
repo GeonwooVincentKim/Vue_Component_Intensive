@@ -17,6 +17,7 @@ import ProvideInject from '../views/provide/ProvideInject.vue'
 import ProvideInjectChild from '../views/provide/ProvideInjectChild.vue'
 import CalculatorExample from '../views/calculator/CalculatorExample.vue'
 import CompositionAPI2 from '../views/calculator/CompositionAPI2.vue'
+import CompositionAPI3 from '../views/calculator/CompositionAPI3.vue'
 
 const routes = [
   {
@@ -101,6 +102,11 @@ const routes = [
     path: '/calculator/CompositionAPI2',
     name: 'CalculatorExample',
     component: CompositionAPI2
+  },
+  {
+    path: '/calculator/CompositionAPI3',
+    name: 'CalculatorExample',
+    component: CompositionAPI3
   }
 
 ]
