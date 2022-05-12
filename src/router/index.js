@@ -19,6 +19,7 @@ import CalculatorExample from '../views/calculator/CalculatorExample.vue'
 import CompositionAPI2 from '../views/calculator/CompositionAPI2.vue'
 import CompositionAPI3 from '../views/calculator/CompositionAPI3.vue'
 import CompositionAPI4 from '../views/calculator/CompositionAPI4.vue'
+import CompositionAPIProvide from '../views/calculator/CompositionAPIProvide'
 
 const routes = [
   {
@@ -113,6 +114,11 @@ const routes = [
     path: '/calculator/CompositionAPI4',
     name: 'CalculatorExample',
     component: CompositionAPI4
+  },
+  {
+    path: '/calculator/CompositionAPIProvide',
+    name: 'CompositionAPIInject',
+    component: CompositionAPIProvide
   }
 
 ]
