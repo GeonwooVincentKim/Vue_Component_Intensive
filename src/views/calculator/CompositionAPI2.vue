@@ -16,6 +16,13 @@ import { reactive, computed } from 'vue'
 export default {
   name: 'CalculatorExample',
   setup () {
+    // If you use `let` declaration,
+    // it says `If a variable is never reassigned, using the `const` declaration is better.
+
+    // In this code, `state` variable did not reassigned after declared
+    // So it cannot use `let` if developer does not trying to modify variable values
+
+    // Reducing cognitive load and improving maintainability
     const state = reactive({
       num1: 0,
       num2: 0,
