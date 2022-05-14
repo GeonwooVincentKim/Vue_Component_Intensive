@@ -21,6 +21,8 @@ import CompositionAPI3 from '../views/calculator/CompositionAPI3.vue'
 import CompositionAPI4 from '../views/calculator/CompositionAPI4.vue'
 import CompositionAPIProvide from '../views/calculator/CompositionAPIProvide'
 
+import CustomDirective from '../views/mixins/CustomDirective'
+
 const routes = [
   {
     path: '/',
@@ -119,6 +121,11 @@ const routes = [
     path: '/calculator/CompositionAPIProvide',
     name: 'CompositionAPIInject',
     component: CompositionAPIProvide
+  },
+  {
+    path: '/mixins/CustomDirective',
+    name: 'CustomDirective',
+    component: CustomDirective
   }
 
 ]
