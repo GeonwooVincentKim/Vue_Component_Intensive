@@ -22,6 +22,7 @@ import CompositionAPI4 from '../views/calculator/CompositionAPI4.vue'
 import CompositionAPIProvide from '../views/calculator/CompositionAPIProvide'
 
 import CustomDirective from '../views/mixins/CustomDirective'
+import GetPlugins from '../views/plugins/GetPlugins'
 
 const routes = [
   {
@@ -126,6 +127,11 @@ const routes = [
     path: '/mixins/CustomDirective',
     name: 'CustomDirective',
     component: CustomDirective
+  },
+  {
+    path: '/plugins/GetPlugins',
+    name: 'GetPlugins',
+    component: GetPlugins
   }
 
 ]
