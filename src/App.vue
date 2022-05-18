@@ -7,7 +7,8 @@
     <router-link to="/computed">Computed</router-link> |
     <router-link to="/watch">Watch</router-link> |
     <router-link to="/provide/inject">Provide</router-link> |
-    <router-link to="/calculator/CalculatorExample">Calculator</router-link>
+    <router-link to="/calculator/CalculatorExample">Calculator</router-link> |
+    <router-link to="/store/StoreAccess">Store Access</router-link>
   </nav>
   <router-view/>
 </template>

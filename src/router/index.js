@@ -23,6 +23,7 @@ import CompositionAPIProvide from '../views/calculator/CompositionAPIProvide'
 
 import CustomDirective from '../views/mixins/CustomDirective'
 import GetPlugins from '../views/plugins/GetPlugins'
+import StoreAccess from '../views/store/StoreAccess'
 
 const routes = [
   {
@@ -132,6 +133,11 @@ const routes = [
     path: '/plugins/GetPlugins',
     name: 'GetPlugins',
     component: GetPlugins
+  },
+  {
+    path: '/store/StoreAccess',
+    name: 'StoreAccess',
+    component: StoreAccess
   }
 
 ]
