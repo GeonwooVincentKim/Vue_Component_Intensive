@@ -1,4 +1,5 @@
 const { defineConfig } = require('@vue/cli-service')
+const { apply } = require('core-js/fn/reflect')
 module.exports = defineConfig({
   transpileDependencies: true
 })
@@ -17,3 +18,12 @@ module.exports = {
 	}
   }
 }
+
+const cors = require('cors')
+
+let corsOption = {
+  origin: 'http://localhost:8080',
+  credentials: true // Add set contents into the response header if is true
+}
+
+app.use(cors(corsOption))
