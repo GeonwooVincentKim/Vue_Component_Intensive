@@ -13,12 +13,21 @@ const store = createStore({
   },
   getters: {
     cartCount: (state) => {
+      console.log('Cart Length -> ', state.cart.length)
       return state.cart.length
     }
   },
   mutations: {
     increment (state) {
+      console.log('Check State Count -> ', state.count)
       state.count++
+    }
+  },
+  actions: {
+    increment (context) {
+      // Available to execute Asynchronous Processing Logic
+      console.log('Is program here ? -> ')
+      context.commit('increment')
     }
   }
 })
