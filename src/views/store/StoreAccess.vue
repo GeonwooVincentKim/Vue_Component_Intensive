@@ -5,6 +5,7 @@
 </template>
 <script>
 export default {
+  // Getters
   computed: {
     count () {
       console.log('Check Store Count (Vue) -> ', this.$store.state.count)
@@ -13,12 +14,13 @@ export default {
     cartCount () {
       console.log('Check Cart Count (Vue) -> ', this.$store.getters.cartCount)
       return this.$store.getters.cartCount
-    },
-    methods: {
-      increment () {
-        console.log('Check Clicked -> ', this.count)
-        this.$store.commit('increment')
-      }
+    }
+  },
+  // Mutations
+  methods: {
+    increment () {
+      console.log('Check Clicked -> ', this.count)
+      this.$store.commit('increment')
     }
   }
 }
