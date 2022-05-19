@@ -1,4 +1,4 @@
-import { createStore } from 'vuex';
+import { createStore } from 'vuex'
 import persistedstate from 'vuex-persistedstate'
 
 const newStore = createStore({

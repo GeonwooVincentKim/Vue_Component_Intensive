@@ -4,6 +4,7 @@ import router from './router'
 import store from './store'
 import mixins from './mixins'
 import i18nPlugin from './plugins/i18n'
+import newStore from './newStore'
 // const cors = require('cors')
 
 // createApp(App).use(router).mixin(mixins).mount('#app')
@@ -32,6 +33,7 @@ app.directive('focus', {
 createApp(App)
 app.use(router)
 app.use(store)
+app.use(newStore)
 app.use(i18nPlugin, i18nStrings)
 app.use(mixins)
 // app.use(cors(corsOption))
