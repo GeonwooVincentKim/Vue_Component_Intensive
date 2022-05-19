@@ -7,9 +7,11 @@
 export default {
   computed: {
     count () {
+      console.log('Check Store Count (Vue) -> ', this.$store.state.count)
       return this.$store.state.count
     },
     cartCount () {
+      console.log('Check Cart Count (Vue) -> ', this.$store.getters.cartCount)
       return this.$store.getters.cartCount
     },
     methods: {
