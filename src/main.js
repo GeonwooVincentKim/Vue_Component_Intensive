@@ -38,3 +38,5 @@ app.use(i18nPlugin, i18nStrings)
 app.use(mixins)
 // app.use(cors(corsOption))
 app.mount('#app')
+
+window.Kakao.init('a63e73765b46ad52f2b3feed0690608f')
