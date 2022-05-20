@@ -26,6 +26,8 @@ import GetPlugins from '../views/plugins/GetPlugins'
 import StoreAccess from '../views/store/StoreAccess'
 import NewStoreAccess from '../views/store/NewStoreAccess'
 
+import KakaoLogin from '../views/kakao/Login'
+
 const routes = [
   {
     path: '/',
@@ -144,8 +146,12 @@ const routes = [
     path: '/store/NewStoreAccess',
     name: 'NewStoreAcesss',
     component: NewStoreAccess
+  },
+  {
+    path: '/login',
+    name: 'KakaoLogin',
+    component: KakaoLogin
   }
-
 ]
 
 const router = createRouter({
