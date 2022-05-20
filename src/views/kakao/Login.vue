@@ -17,7 +17,7 @@ export default {
   methods: {
     kakaoLogin () {
       window.Kakao.Auth.login({
-        scope: 'profile_nickname, account_email',
+        scope: 'profile_nickname, profile_image, account_email',
         success: this.getKakaoAccount
       })
     },
@@ -27,9 +27,11 @@ export default {
         success: res => {
           const kakao_account = res.kakao_account
           const nickName = kakao_account.profile.profile_nickname
+          const profileImage = kakao_account.profile.profile_image
           const email = kakao_account.account_email
           console.log('Get kakao_account -> ', kakao_account)
           console.log('nickName -> ', nickName)
+          console.log('profileImage -> ', profileImage)
           console.log('email -> ', email)
 
           alert('Login Success~!!')
