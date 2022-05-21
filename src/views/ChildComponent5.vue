@@ -8,6 +8,7 @@ export default {
       msg: '메시지'
     }
   },
+  
   methods: {
     childFunc () {
       console.log(this.msg)
