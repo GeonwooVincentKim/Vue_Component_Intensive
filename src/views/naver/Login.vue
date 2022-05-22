@@ -38,7 +38,7 @@ export default {
         if (email === undefined || email == null) {
           alert('Email is an required information. Please Agree to provide information')
           // Move to Naver Agree Page to re-agree on using user information
-          this.naverLogin.prompt()
+          this.naverLogin.reprompt()
           return
         } else {
           console.log('Failed on Callback Processing')
@@ -51,7 +51,7 @@ export default {
     logout () {
       const accessToken = this.naverLogin.accessToken.accessToken
       console.log('Check Token -> ', accessToken)
-      const url = '/oauth2.0/token?grant_type=delete&client_id=KVguiVSgOk_3PnuLSp0C&client_secret=txmmrZF5wl&access_token=${accessToken}&service_provider=NAVER'
+      const url = `/oauth2.0/token?grant_type=delete&client_id=KVguiVSgOk_3PnuLSp0C&client_secret=txmmrZF5wl&access_token=${accessToken}&service_provider=NAVER`
 
       axios.get(url).then((res) => {
         console.log(res.data)
