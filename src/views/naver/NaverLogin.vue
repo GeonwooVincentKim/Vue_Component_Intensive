@@ -35,7 +35,7 @@ export default {
 
         // Check in the `callback` status point if there must be have to get required information
         var email = this.naverLogin.user.getEmail()
-        if (email === undefined || email == null) {
+        if (email == undefined || email == null) {
           alert('Email is an required information. Please Agree to provide information')
           // Move to Naver Agree Page to re-agree on using user information
           this.naverLogin.reprompt()
