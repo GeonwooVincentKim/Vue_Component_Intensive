@@ -11,6 +11,7 @@ export default {
   methods: {
     onSignIn (googleUser) {
       const profile = googleUser.getBasicProfile()
+      console.log(profile)
       console.log("ID -> " + profile.getId())
       console.log("Full Name -> " + profile.getName())
       console.log("Given Name -> " + profile.getGivenName())
