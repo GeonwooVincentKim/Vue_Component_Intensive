@@ -28,6 +28,7 @@ import NewStoreAccess from '../views/store/NewStoreAccess'
 
 import KakaoLogin from '../views/kakao/Login'
 import NaverLogin from '../views/naver/NaverLogin'
+import GoogleLogin from '../views/google/GoogleLogin'
 
 const routes = [
   {
@@ -157,6 +158,11 @@ const routes = [
     path: '/naverLogin',
     name: 'NaverLogin',
     component: NaverLogin
+  },
+  {
+    path: '/googlelogin',
+    name: 'GoogleLogin',
+    component: GoogleLogin
   }
 ]
 
