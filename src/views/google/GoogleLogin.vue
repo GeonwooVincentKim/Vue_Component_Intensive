@@ -8,6 +8,7 @@ export default {
   mounted () {
     window.gapi.signin2.render("google-signin-btn", {onsuccess: this.onSignIn})
   },
+  
   methods: {
     onSignIn (googleUser) {
       const profile = googleUser.getBasicProfile()
