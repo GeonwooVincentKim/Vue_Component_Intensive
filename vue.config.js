@@ -34,5 +34,3 @@
 module.exports = {
   lintOnSave: false
 }
-
-
